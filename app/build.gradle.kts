@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.noboros.moneymanager"
+    namespace = "com.example.noboros"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.noboros.moneymanager"
+        applicationId = "com.example.noboros"
         minSdk = 24  // Compatible with API 24
         targetSdk = 34
         versionCode = 1
@@ -44,8 +44,6 @@ android {
     buildFeatures {
         compose = true
     }
-
-    // Removed composeOptions block - now handled by compose plugin
 
     packaging {
         resources {
